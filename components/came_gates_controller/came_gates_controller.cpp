@@ -26,9 +26,9 @@ void CameGatesSwitch::dump_config() {
 }
 
 void CameGatesSwitch::write_state(bool state) {
-  if (state) {
+  //if (state) {
     transmit_();
-  }
+  //}
 
   publish_state(state);
 }
