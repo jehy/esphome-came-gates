@@ -30,7 +30,7 @@ void CameGatesSwitch::write_state(bool state) {
     transmit_();
   }
 
-  publish_state(false);
+  publish_state(state);
 }
 
 void CameGatesSwitch::send_bit_(uint8_t bit) {
