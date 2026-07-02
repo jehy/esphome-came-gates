@@ -27,3 +27,7 @@ switch:
 - `pin` - GPIO output pin connected to the transmitter data input.
 - `code` - CAME fixed code. Must be exactly 12 or 24 bits and contain only `0` and `1`.
 - `shipments` - Number of repeated transmissions. Defaults to `6`.
+
+Sample project with yaml can also be found here:
+
+https://github.com/jehy/esphome/tree/master/came-gates-controller
